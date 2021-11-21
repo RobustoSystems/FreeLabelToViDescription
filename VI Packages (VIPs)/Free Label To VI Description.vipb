@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-21 14:44:42" Modified_Date="2021-11-21 15:14:03" Creator="Petru" Comments="" ID="50272be271713a1da53b8e8c729597e7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-21 14:44:42" Modified_Date="2021-11-21 15:42:56" Creator="Petru" Comments="" ID="372f378d66dbc741b4de42108a565b58">
   <Library_General_Settings>
     <Package_File_Name>Robusto_Systems_lib_Free_Label_To_VI_Description</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -32,7 +32,16 @@
 
 This tool helps keep in sync the contents of a main free label (comment) on the block diagram or front panel and the VI Description. Such that the same comprehensive description of the VI is available both "inside" the VI (on the BD or FP) and "outside" the VI (in the VI Description/Context Help window).
 
-www.robustosystems.com</Description>
+This package installs one file, named "Free Label To VI Description.llb", to the following location: &lt;LabVIEW installation directory&gt;\resource\plugins\PopupMenus\edit time panel and diagram
+
+The LLB contains two VIs: one that adds the "Set as VI Description" item to the right-click menu, and one that executes the action when the menu item is selected.
+
+The source code is available in the LLB file, or at the following Github repository: https://github.com/RobustoSystems/FreeLabelToViDescription
+
+To report bugs or suggest improvements create a new issue on Github or email me at petru@robustosystems.com.
+
+www.robustosystems.com
+</Description>
       <Copyright/>
       <Packager>Petru Tarabuta</Packager>
       <URL>www.robustosystems.com</URL>
