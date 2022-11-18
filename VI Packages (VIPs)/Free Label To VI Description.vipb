@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-21 14:44:42" Modified_Date="2021-11-21 16:05:42" Creator="Petru" Comments="" ID="bb52121dd9e10d171c60ba87bd7b38c4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-21 14:44:42" Modified_Date="2022-11-18 15:25:52" Creator="Petru" Comments="" ID="f07915ae3e8f583dc36dd4e1bf3695d0">
   <Library_General_Settings>
     <Package_File_Name>Robusto_Systems_lib_Free_Label_To_VI_Description</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source Code</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -41,14 +41,11 @@ The LLB contains two VIs: one that adds the "Set as VI Description" item to the 
 
 The source code is available in the LLB file, or at the following Github repository: https://github.com/RobustoSystems/FreeLabelToViDescription
 
-To report bugs or suggest improvements create a new issue on Github or email me at petru@robustosystems.com.
-
-www.robustosystems.com
-</Description>
+Good or bad, we love to hear from our users. Please email us at engineering@robustosystems.com with your thoughts, including bug reports and suggestions.</Description>
       <Copyright/>
       <Packager>Petru Tarabuta</Packager>
       <URL>www.robustosystems.com</URL>
-      <Release_Notes>Initial version</Release_Notes>
+      <Release_Notes>Minor improvements to the package description.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -133,9 +130,6 @@ www.robustosystems.com
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>This code written in LabVIEW 2016.txt</Path>
-      </Exclusions>
       <Exclusions>
         <Path>Test VI.vi</Path>
       </Exclusions>
