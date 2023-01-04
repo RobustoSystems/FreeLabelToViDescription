@@ -1,0 +1,28 @@
+04/01/2023 11:43:44
+[General]
+Project: D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\FreeLabelToViDescription.lvproj
+Target: My Computer
+Build Specification: Free Label To VI Description
+OS: Windows NT 10.0
+
+[Open Top Level VIs]
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\Execute Free Label To VI Description.vi	04/01/2023 11:39:32
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\Free Label To VI Description.vi	04/01/2023 11:28:21
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\Get Text With Markdown.vi	04/01/2023 11:28:48
+
+
+[Source Files]
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\Get Text With Markdown.vi	04/01/2023 11:28:48	47
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\Execute Free Label To VI Description.vi	04/01/2023 11:39:32	198
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\plugins\PopupMenus\support\Enabled Menu Item Status.ctl	08/06/2016 21:42:56	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\plugins\PopupMenus\support\Checkmark Status.ctl	08/06/2016 21:42:56	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\plugins\PopupMenus\support\Relative Position.ctl	08/06/2016 21:42:56	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\plugins\PopupMenus\support\Position In Menu.ctl	08/06/2016 21:42:56	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\plugins\PopupMenus\support\Transaction Control.ctl	08/06/2016 21:42:56	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\plugins\PopupMenus\support\Shortcut Menu Item Definition.ctl	08/06/2016 21:42:56	19
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\Source Code\Free Label To VI Description.vi	04/01/2023 11:28:21	184
+
+[Output Files]
+D:\Projects\LabVIEW\Shortcut Menu Plugins\FreeLabelToViDescription\LLBs\Free Label To VI Description.llb	04/01/2023 11:43:45
+
+04/01/2023 11:43:45
