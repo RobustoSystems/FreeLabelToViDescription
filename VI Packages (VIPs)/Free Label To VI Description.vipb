@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-21 14:44:42" Modified_Date="2023-01-05 16:29:14" Creator="Petru" Comments="" ID="e82c32303a425e128271f61ec0143967">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-11-21 14:44:42" Modified_Date="2023-01-08 20:08:28" Creator="Petru" Comments="" ID="70f9a75ff506003ad8cec791ec71be71">
   <Library_General_Settings>
     <Package_File_Name>Robusto_Systems_lib_Free_Label_To_VI_Description</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.1.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>VIP Source Files</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -28,9 +28,9 @@
     <VI_Package_Configuration_File>Free Label To VI Description.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Right-Click Menu Plugin (IDE extension) that helps set the VI Description</One_Line_Description_Summary>
-      <Description>This is a right-click menu LabVIEW IDE extension. When right-clicking a free label (a comment) on the block diagram or front panel this tool adds a menu item named "Set as VI Description". When clicking this menu item, the tool copies the text in the free label (comment) and applies it to the VI Description. If the VI Description already contains text, a prompt asks the user for confirmation before overwriting the VI Description.
+      <Description>This is a right-click menu (a.k.a. shortcut menu) LabVIEW IDE extension. When right-clicking a free label (a comment) on the block diagram or front panel this tool adds a menu item named "Set as VI Description". When clicking this menu item, the tool copies the text from the free label and applies it to the VI Description. If the VI Description already contains text, a prompt asks the user for confirmation before overwriting the VI Description. Optionally, bold characters in the free label are replicated in the VI description (see section about "ProcessBoldCharacters = True" setting below).
 
-This tool helps keep in sync the contents of a main free label (comment) on the block diagram or front panel and the VI Description. Such that the same comprehensive description of the VI is available both "inside" the VI (on the BD or FP) and "outside" the VI (in the VI Description/Context Help window).
+This tool helps keep in sync the contents of a main comment on the block diagram or front panel and the VI Description. Such that the same comprehensive description of the VI is available both "inside" the VI (on the BD or FP) and "outside" the VI (in the VI Description/Context Help window).
 
 This package installs the following two files to the following location: &lt;LabVIEW installation directory&gt;\resource\plugins\PopupMenus\edit time panel and diagram
     - Free Label To VI Description.llb
@@ -47,7 +47,7 @@ Good or bad, we love to hear from our users. Please email us at engineering@robu
       <Packager>Petru Tarabuta</Packager>
       <URL>www.robustosystems.com</URL>
       <Release_Notes>Enhancements:
-- Now able to detect bold text in the free label, and generate corresponding &lt;B&gt; and &lt;/B&gt; tags inside the VI description text. The end result is that the VI description text displayed in the Context Help window can replicate the bold text in the free label. 
+- Now able to detect bold text in the free label, and generate corresponding B and /B tags inside the VI description text. The end result is that the VI description text displayed in the Context Help window can replicate the bold text in the free label. 
 
 Credit to Brent Justice for suggesting and implementing this functionality.
 
