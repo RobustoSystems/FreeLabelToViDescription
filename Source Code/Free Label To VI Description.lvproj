@@ -45,6 +45,7 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Destroy Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Destroy Cursor.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
@@ -66,6 +67,7 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Free Label To VI Description" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{74058CDD-5AC2-4CE8-A167-6E1D757215C8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Free Label To VI Description</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
@@ -84,6 +86,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{EABFD48D-7AD7-461F-96D1-1EEB453B7FF8}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../LLBs/LLB Build Log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -92,7 +95,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../LLBs</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7978D1F3-4233-4DBA-8682-2AEC444FE692}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{122A394E-B24D-433C-8231-8624C4016C42}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main Codebase/Execute Action/Execute Free Label To VI Description.vi</Property>
